@@ -1,8 +1,9 @@
 import { GoogleGenAI } from "@google/genai";
 
-// FIX: Initialize the GoogleGenAI client directly with the API key from environment variables as per guidelines.
-// Assume process.env.API_KEY is always available.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+// FIX: Initialize the GoogleGenAI client directly with the provided API key.
+// `process.env.API_KEY` is not available in a static browser environment.
+const apiKey = 'AIzaSyA6e-qTczHwNel7fHrUP6I1sMbhVLqVqNI';
+const ai = new GoogleGenAI({ apiKey });
 
 export const generatePostContent = async (prompt: string): Promise<string> => {
   // FIX: Removed redundant API_KEY check.
