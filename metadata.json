@@ -1,0 +1,5 @@
+{
+  "name": "EchoSphere",
+  "description": "EchoSphere is a dynamic social media platform designed for real-time interaction, enabling users to create profiles, share content, and engage with others through a live news feed and an integrated chat system.",
+  "requestFramePermissions": []
+}
