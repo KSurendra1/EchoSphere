@@ -1,6 +1,7 @@
 # EchoSphere - Real-Time Social Networking Web App
 
 EchoSphere is a dynamic, full-stack social media platform designed for real-time interaction. Built with a modern tech stack, it mimics the core functionalities of popular social networks like Instagram, providing a seamless, responsive, and engaging user experience. This project demonstrates advanced frontend development skills, state management, and integration with generative AI for content creation.
+
 Live link : https://echosphere-pied.vercel.app/
 ## ✨ Key Features
 
